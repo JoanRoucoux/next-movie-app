@@ -2,7 +2,7 @@ import { ComponentMeta, ComponentStory } from '@storybook/react';
 import SidebarLayout from './SidebarLayout';
 
 export default {
-  title: 'layouts/BaseTemplate',
+  title: 'layouts/SidebarLayout',
   component: SidebarLayout,
   // More on argTypes: https://storybook.js.org/docs/react/api/argtypes
   argTypes: {},
