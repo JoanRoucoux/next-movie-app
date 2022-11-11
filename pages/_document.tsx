@@ -1,8 +1,7 @@
-import * as React from 'react';
-import Document, { Html, Head, Main, NextScript } from 'next/document';
 import createEmotionServer from '@emotion/server/create-instance';
-import theme, { roboto } from '../src/config/theme';
+import Document, { Head, Html, Main, NextScript } from 'next/document';
 import createEmotionCache from '../src/config/createEmotionCache';
+import theme, { roboto } from '../src/config/theme';
 
 export default class MyDocument extends Document {
   render() {
