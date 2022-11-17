@@ -1,16 +1,33 @@
-import MovieCard from '../components/cards/movie/MovieCard';
-import { mockMovieCardProps } from '../components/cards/movie/MovieCard.mocks';
+import Image from 'next/image';
+import Link from 'next/link';
+import { useRouter } from 'next/router';
 import PrimaryLayout from '../components/layouts/primary/PrimaryLayout';
-import SidebarLayout from '../components/layouts/sidebar/SidebarLayout';
+import Search from '../components/utility/search/Search';
 import { NextPageWithLayout } from './page';
 
 const Home: NextPageWithLayout = () => {
+  const { locale } = useRouter();
+
   return (
-    <section className="bg-gradient-to-r from-cyan-500 to-blue-500">
-      <h1>
-        Welcome to <a href="https://nextjs.org">Next.js!</a>
-      </h1>
-      <MovieCard {...mockMovieCardProps.base} />
+    <section className="flex flex-col items-center gap-y-5 mt-12 sm:mt-36">
+      <Image
+        src="/popcorn-logo.png"
+        alt="Popcorn Logo"
+        width={272}
+        height={92}
+        priority
+      />
+      <Search />
+      <p>
+        Popcorn offered in:{' '}
+        <Link
+          href="/"
+          className="underline text-blue-600"
+          locale={locale === 'en' ? 'fr' : 'en'}
+        >
+          Français
+        </Link>
+      </p>
     </section>
   );
 };
@@ -18,10 +35,5 @@ const Home: NextPageWithLayout = () => {
 export default Home;
 
 Home.getLayout = (page) => {
-  return (
-    <PrimaryLayout>
-      <SidebarLayout />
-      {page}
-    </PrimaryLayout>
-  );
+  return <PrimaryLayout>{page}</PrimaryLayout>;
 };

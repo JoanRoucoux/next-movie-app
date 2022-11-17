@@ -5,6 +5,10 @@ const nextConfig = {
   images: {
     domains: ['i.pravatar.cc'],
   },
+  i18n: {
+    locales: ['en', 'fr'],
+    defaultLocale: 'en',
+  },
 };
 
 module.exports = nextConfig;
