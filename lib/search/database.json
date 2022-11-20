@@ -1,0 +1,32 @@
+[
+  {
+    "tag": "Action/Aventure",
+    "title": "Arrival",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
+    "posterImg": "/arrival.jpg"
+  },
+  {
+    "tag": "Action/Aventure",
+    "title": "Wonder Woman",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
+    "posterImg": "/wonder-woman.jpg"
+  },
+  {
+    "tag": "Action/Aventure",
+    "title": "Star Wars: The Last Jedi",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
+    "posterImg": "/star-wars-the-last-jedi.jpg"
+  },
+  {
+    "tag": "Action/Aventure",
+    "title": "Thor: Ragnarok",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
+    "posterImg": "/thor-ragnarok.jpg"
+  },
+  {
+    "tag": "Action/Aventure",
+    "title": "Gravity",
+    "description": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi perferendis molestiae non nemo doloribus. Doloremque, nihil! At ea atque quidem!",
+    "posterImg": "/gravity.jpg"
+  }
+]

@@ -50,22 +50,3 @@
   font-size: 1.5rem;
   text-transform: capitalize;
 }
-
-.card__footer {
-  display: flex;
-  padding: 1rem;
-  margin-top: auto;
-}
-
-.user {
-  display: flex;
-  gap: 0.5rem;
-}
-
-.user__image {
-  border-radius: 50%;
-}
-
-.user__info > small {
-  color: #666;
-}
