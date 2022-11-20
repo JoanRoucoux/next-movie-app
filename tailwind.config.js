@@ -13,6 +13,20 @@ module.exports = {
       lg: '1200px',
       xl: '1536px',
     },
+    fontFamily: {
+      sans: ['Arial', 'sans-serif'],
+      serif: ['Garamond', 'serif'],
+    },
+    extend: {
+      colors: {
+        blue: {
+          500: '#cc2229',
+        },
+      },
+      spacing: {
+        128: '32rem',
+      },
+    },
   },
   plugins: [],
 };
